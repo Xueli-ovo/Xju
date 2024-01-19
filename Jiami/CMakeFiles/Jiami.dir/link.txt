@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/Jiami.dir/main.cpp.o -o Jiami 

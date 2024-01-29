@@ -21,7 +21,9 @@
 ### 编译及运行
 
 要编译此程序,先确保你的操作系统为现代Linux发行版。*(例如:Ubuntu 20.04或更高版本)*
+
 以Debian 系操作系统为例:
+
 	#安装依赖库
 	sudo apt install g++ cmake make gcc
 	
@@ -36,4 +38,5 @@
 
 	#运行
 	./Jiami
+
 **感谢你的支持！**

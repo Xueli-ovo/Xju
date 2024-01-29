@@ -1,3 +1,0 @@
-/home/xueli/文档/Program/Jiami/CMakeFiles/Jiami.dir
-/home/xueli/文档/Program/Jiami/CMakeFiles/edit_cache.dir
-/home/xueli/文档/Program/Jiami/CMakeFiles/rebuild_cache.dir

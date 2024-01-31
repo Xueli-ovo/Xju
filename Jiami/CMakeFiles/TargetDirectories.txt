@@ -1,0 +1,3 @@
+/home/xueli/文档/Program/TestBuild/Jiami/CMakeFiles/Jiami.dir
+/home/xueli/文档/Program/TestBuild/Jiami/CMakeFiles/edit_cache.dir
+/home/xueli/文档/Program/TestBuild/Jiami/CMakeFiles/rebuild_cache.dir

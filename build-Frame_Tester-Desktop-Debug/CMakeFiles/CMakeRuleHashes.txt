@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+2ac1debe34c35171dffb90f4f0f1158b /home/xueli/文档/Program/Xju/Frame_Tester/Frame_Tester_zh_CN.ts
+4a2513a1becfaf67f79a9679f42a4c5e CMakeFiles/Frame_Tester_autogen

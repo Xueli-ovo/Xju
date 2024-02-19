@@ -11,20 +11,45 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Framer</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>130</x>
-      <y>50</y>
-      <width>131</width>
-      <height>61</height>
+      <x>0</x>
+      <y>0</y>
+      <width>801</width>
+      <height>171</height>
      </rect>
     </property>
     <property name="text">
-     <string>Hello</string>
+     <string># Home 
+ **Welcome to Framer!**  
+ **In There,You can test widget.**  
+ 欢迎来到框架测试器，在这里，你可以测试各种窗口组件。</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::MarkdownText</enum>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignHCenter|Qt::AlignTop</set>
+    </property>
+   </widget>
+   <widget class="QSlider" name="horizontalSlider">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>140</y>
+      <width>160</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>WaitCursor</cursorShape>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
     </property>
    </widget>
   </widget>

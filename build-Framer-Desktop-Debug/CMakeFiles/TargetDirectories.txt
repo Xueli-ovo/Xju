@@ -1,8 +1,0 @@
-/home/xueli/文档/Program/Xju/build-Framer-Desktop-Debug/CMakeFiles/Framer.dir
-/home/xueli/文档/Program/Xju/build-Framer-Desktop-Debug/CMakeFiles/edit_cache.dir
-/home/xueli/文档/Program/Xju/build-Framer-Desktop-Debug/CMakeFiles/rebuild_cache.dir
-/home/xueli/文档/Program/Xju/build-Framer-Desktop-Debug/CMakeFiles/list_install_components.dir
-/home/xueli/文档/Program/Xju/build-Framer-Desktop-Debug/CMakeFiles/install.dir
-/home/xueli/文档/Program/Xju/build-Framer-Desktop-Debug/CMakeFiles/install/local.dir
-/home/xueli/文档/Program/Xju/build-Framer-Desktop-Debug/CMakeFiles/install/strip.dir
-/home/xueli/文档/Program/Xju/build-Framer-Desktop-Debug/CMakeFiles/Framer_autogen.dir

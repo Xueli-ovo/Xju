@@ -1,9 +1,0 @@
-/home/xueli/文档/Program/Xju/build-Winnie-Desktop_Qt_5_15_2_GCC_64bit-Debug/CMakeFiles/Winnie.dir
-/home/xueli/文档/Program/Xju/build-Winnie-Desktop_Qt_5_15_2_GCC_64bit-Debug/CMakeFiles/edit_cache.dir
-/home/xueli/文档/Program/Xju/build-Winnie-Desktop_Qt_5_15_2_GCC_64bit-Debug/CMakeFiles/rebuild_cache.dir
-/home/xueli/文档/Program/Xju/build-Winnie-Desktop_Qt_5_15_2_GCC_64bit-Debug/CMakeFiles/list_install_components.dir
-/home/xueli/文档/Program/Xju/build-Winnie-Desktop_Qt_5_15_2_GCC_64bit-Debug/CMakeFiles/install.dir
-/home/xueli/文档/Program/Xju/build-Winnie-Desktop_Qt_5_15_2_GCC_64bit-Debug/CMakeFiles/install/local.dir
-/home/xueli/文档/Program/Xju/build-Winnie-Desktop_Qt_5_15_2_GCC_64bit-Debug/CMakeFiles/install/strip.dir
-/home/xueli/文档/Program/Xju/build-Winnie-Desktop_Qt_5_15_2_GCC_64bit-Debug/CMakeFiles/Winnie_autogen_timestamp_deps.dir
-/home/xueli/文档/Program/Xju/build-Winnie-Desktop_Qt_5_15_2_GCC_64bit-Debug/CMakeFiles/Winnie_autogen.dir

@@ -7,7 +7,10 @@
 
 using namespace std;
 
+int shell();
+
 int main()
 {
+	shell();
 	return 0;
 }

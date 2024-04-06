@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+93661cd66662bc3eafc1a3439b7bf986 CMakeFiles/Winnie_autogen

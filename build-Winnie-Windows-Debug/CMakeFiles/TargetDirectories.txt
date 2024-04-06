@@ -1,0 +1,9 @@
+/home/xueli/文档/Program/Xju/build-Winnie-Windows-Debug/CMakeFiles/Winnie.dir
+/home/xueli/文档/Program/Xju/build-Winnie-Windows-Debug/CMakeFiles/edit_cache.dir
+/home/xueli/文档/Program/Xju/build-Winnie-Windows-Debug/CMakeFiles/rebuild_cache.dir
+/home/xueli/文档/Program/Xju/build-Winnie-Windows-Debug/CMakeFiles/list_install_components.dir
+/home/xueli/文档/Program/Xju/build-Winnie-Windows-Debug/CMakeFiles/install.dir
+/home/xueli/文档/Program/Xju/build-Winnie-Windows-Debug/CMakeFiles/install/local.dir
+/home/xueli/文档/Program/Xju/build-Winnie-Windows-Debug/CMakeFiles/install/strip.dir
+/home/xueli/文档/Program/Xju/build-Winnie-Windows-Debug/CMakeFiles/Winnie_autogen_timestamp_deps.dir
+/home/xueli/文档/Program/Xju/build-Winnie-Windows-Debug/CMakeFiles/Winnie_autogen.dir

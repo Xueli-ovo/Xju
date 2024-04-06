@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-908268300bba9c50857a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Winnie",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Winnie::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Winnie-Debug-26fcf950e59e942a6573.json",
+					"name" : "Winnie",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Winnie_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Winnie_autogen-Debug-656360e53b473b2078b7.json",
+					"name" : "Winnie_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Winnie_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Winnie_autogen_timestamp_deps-Debug-b6d72a9dfe0fc64efe97.json",
+					"name" : "Winnie_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/xueli/\u6587\u6863/Program/Xju/build-Winnie-Desktop_Qt_5_15_2_GCC_64bit-Debug",
+		"source" : "/home/xueli/\u6587\u6863/Program/Xju/Winnie"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

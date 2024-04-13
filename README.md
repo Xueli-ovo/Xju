@@ -1,6 +1,6 @@
 # 关于本程序
 
-Xueli's Utility Version 0.3 Dev
+Xueli's Game & Utility Version 0.3 Dev
 
 ## 简介
 
@@ -18,9 +18,9 @@ Xueli's Utility Version 0.3 Dev
 
 举个例子:
 当你输入
-	abaaba
+ abaaba
 那它就会返回
-	bcbbcb
+ bcbbcb
 
 ### 编译及运行
 
@@ -28,20 +28,20 @@ Xueli's Utility Version 0.3 Dev
 
 以Debian 系操作系统为例:
 
-	#安装依赖库
-	sudo apt install g++ cmake make gcc
-	
-	#克隆此存储库
-	cd ~
-	git clone https://github.com/Xueli-ovo/Xju
-	
-	#编译
-	cd Xju/Jiami
-	cmake .
-	make
+ #安装依赖库
+ sudo apt install g++ cmake make gcc
 
-	#运行
-	./Jiami
+ #克隆此存储库
+ cd ~
+ git clone <https://github.com/Xueli-ovo/Xju>
+
+ #编译
+ cd Xju/Jiami
+ cmake .
+ make
+
+ #运行
+ ./Jiami
 
 **感谢你的支持！**
 

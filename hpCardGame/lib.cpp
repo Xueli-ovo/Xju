@@ -8,21 +8,9 @@
 #include <bits/stdc++.h>
 #include <ncurses.h>
 
+std::string NAME="\nhpCardGame\n";
+std::string VERSION="\nDev 0.0.1\n";
 
-class info {
-public:
-    // 版本信息
-    std::string ver = "0.0.1";
-    
-    int GetVersion(int version = 0) const {
-        std::cout << "CardGame Version " << (version == 0 ? ver : std::to_string(version)) << std::endl;
-        std::cout << "(C) Xueliovo\n";
-        return version;
-    }
-
-    // 游戏名字
-    std::string name = "hpCardGame";
-};
 
 class libtalk {
 public:
@@ -92,13 +80,19 @@ class player {
 
         */
 
-		int HP;
+		int HP=150;
 		int MP;
-		int AP;
-		int DP;
+		int AP=5;
+		double DP=0.2;
 };
 
+class game{
+    public:
 
+    bool is_running=false;
+    int time;
+    int map;
+};
 
 
 int shell(){
@@ -112,7 +106,7 @@ int shell(){
 		std::cout<<"shell >";
 		std::cin>>str;
         if (str=="shell"){
-            std::cout<<"进程退出,代码"<<shell()<<std::endl;
+            return shell();
         }
         else if (str=="exit"){
             return 0;
@@ -122,3 +116,5 @@ int shell(){
         }
 	}
 }
+
+

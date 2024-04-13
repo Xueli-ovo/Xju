@@ -7,10 +7,18 @@
 
 using namespace std;
 
+string NAME;
+string VERSION;
+
 int shell();
 
 int main()
 {
+	
+	cout<<NAME<<VERSION<<endl;
+	
+
 	shell();
+
 	return 0;
 }

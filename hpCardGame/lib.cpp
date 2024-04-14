@@ -3,18 +3,18 @@
 //此文件定义了大部分的类库,供 main.cpp 使用.
 
 
-
-
 #include <bits/stdc++.h>
-#include <ncurses.h>
+#include <ncursesw/ncurses.h>
 
-std::string NAME="\nhpCardGame\n";
-std::string VERSION="\nDev 0.0.1\n";
-
+#define NAME "hpCardGame"
+#define VERSION "Dev001"
 
 class libtalk {
 public:
-    std::string welcome = "欢迎来到hpCardGame!\n输入\"help new\"获取新手帮助.";
+    //具体对话
+    std::string welcome = "欢迎来到hpCardGame!\n";
+    std::string jianwei_main = "[Q]退出 [D]教程 [S]开始游戏 [R]刷新界面";//键位提示-主要
+    //~具体对话
     int main(std::string com){
 	    //此方法用于处理用户输入的命令.
         //找到protected定义的命令里然后执行.
@@ -29,6 +29,14 @@ public:
 
             GetHelp(str);
 
+        }
+        else if (com=="ver"){
+            //打印版本
+            std::cout<<NAME<<VERSION<<std::endl;
+        }
+        else{
+            //不正确的命令.
+            std::cout<<"shell:命令未找到.\n";
         }
     }
 
@@ -58,7 +66,15 @@ protected:
             std::cout<<"可用参数:\n\
             version\t显示help命令的版本\n\
             new\t显示基本玩法并观看演示\n\
-            ?\t显示此帮助信息\n";
+            ?\t显示此帮助信息\n\
+            command\t显示Shell帮助\n";
+        }
+        else if (status=="command"){
+            std::cout<<"可用Shell命令:\n\
+            help\t进入帮助程序\n\
+            ver\t显示游戏版本\n\
+            exit\t退出当前Shell\n\
+            shell\t进入新的Shell\n";
         }
         else {
             std::cout << "参数不正确,尝试输入?试试.\n";
@@ -66,7 +82,7 @@ protected:
     }
 };
 
-class player {
+class Player {
 	public:
 		std::string name;//玩家名字
 		std::string chara;//角色名字
@@ -86,35 +102,90 @@ class player {
 		double DP=0.2;
 };
 
-class game{
+class Game{
     public:
 
+    int scrX, scrY;
     bool is_running=false;
     int time;
     int map;
+    libtalk a;
+
+    Game(bool debug=false){
+
+        setlocale(LC_ALL,"");
+        initscr();
+        noecho();
+        getmaxyx(stdscr,scrY,scrX);
+        if(debug==true){
+            move(scrX/2-1,scrY/2-1);
+            printw("Max x=%d,Max y=%d",scrY,scrX);
+        }
+
+        move(0,0);
+        printw(a.welcome.c_str());//欢迎消息
+
+        basic_interface();
+
+        getch();
+
+    }
+
+    int basic_interface(){
+        move(0,0);
+        printw(a.welcome.c_str());//欢迎消息
+
+        //绘制界面
+        //move(y,x)
+        move(3,0);
+        for (int i=0;i<scrX;i++)printw("=");
+        move(scrY-5,0);
+        for (int i=0;i<scrX;i++)printw("=");
+        //绘制界面-键位提示
+        move(2,0);
+        printw(a.jianwei_main.c_str());
+    }
+
+    ~Game(){
+        clear();
+        printw("游戏将结束...\n按下任意键回到Shell\n");
+        getch();
+        endwin();
+    }
 };
 
 
-int shell(){
-    std::string str;
+int shell(std::string command){
+    libtalk one;
+    
+    if (command==""){
+        std::string str;
 
-	libtalk one;
-	std::cout<<"hpCardGame Shell\n";
-	std::cout<<one.welcome<<std::endl;
+        std::cout<<"hpCardGame Shell\n";
+        std::cout<<one.welcome<<std::endl;
 
-	while (true){
-		std::cout<<"shell >";
-		std::cin>>str;
-        if (str=="shell"){
-            return shell();
+        while (true){
+            std::cout<<"shell >";
+            std::cin>>str;
+            if (str=="shell"){
+                return shell("");
+            }
+            else if (str=="exit"){
+                return 0;
+            }
+            else if (str=="game"){
+                Game *main=new Game(true);
+
+                delete main;
+            }
+            else{
+                one.main(str);
+            }
         }
-        else if (str=="exit"){
-            return 0;
-        }
-        else{
-            one.main(str);
-        }
-	}
+    }
+    else{
+        one.main(command);
+    }
 }
 
 

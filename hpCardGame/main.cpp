@@ -6,11 +6,10 @@
 #include <ncurses.h>
 
 using namespace std;
+#define NAME "hpCardGame"
+#define VERSION "Dev001"
 
-string NAME;
-string VERSION;
-
-int shell();
+int shell(string command);
 
 int main()
 {
@@ -18,7 +17,7 @@ int main()
 	cout<<NAME<<VERSION<<endl;
 	
 
-	shell();
+	shell("");
 
 	return 0;
 }

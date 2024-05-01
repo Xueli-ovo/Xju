@@ -55,10 +55,10 @@ int main() {
     system("clear");
 
     cout << "---------------------------------\n";
-    cout << "加密解密实用工具 1.0             \n";
+    cout << "加密解密实用工具 1.0.2             \n";
     cout << "---------------------------------\n";
 
-    cout << "欢迎使用！\n请选择想要进行的操作：\n1.加密\n2.解密\n3.退出\n4.显示此提示消息\n";
+    cout << "欢迎使用！\n请选择想要进行的操作:\n1.加密\n2.解密\n3.退出\n4.显示此提示消息\n";
 
     while (true) {
         cout << "Jiami Tools : 输入4来获取帮助.\n";
@@ -99,7 +99,7 @@ int main() {
             case 3:
 		system("clear");
                 cout << "Jiami Tools : 退出.\n";
-                cout << "感谢您的使用，接下来您将返回Shell.\n";
+                cout << "感谢您的使用,接下来您将返回Shell.\n";
                 return 0;
             case 4:
 		system("clear");

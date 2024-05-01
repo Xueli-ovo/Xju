@@ -1,0 +1,16 @@
+hpCardGame 咒语表-文档
+===================
+
+咒语表
+您可以在此了解咒语的功能,以便后面选择搭配咒语卡.
+
+除你武器 Expelliarmus
+
+
+
+盔甲护身 Protego
+统统石化 Petrificus Totalus
+昏昏倒地 Stupefy
+阿瓦达索命 Avada Kedavra
+钻心咒 Crucio
+愈合如初 Episkey

@@ -38,6 +38,8 @@ else()
     else()
         add_executable(Winnie
             ${PROJECT_SOURCES}
+            gamewin.h gamewin.cpp gamewin.ui
+            dia_settings.h dia_settings.cpp dia_settings.ui
         )
     endif()
 endif()

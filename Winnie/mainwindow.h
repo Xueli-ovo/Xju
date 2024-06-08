@@ -6,6 +6,7 @@
 #include <QWidget>
 #include <QMessageBox>
 #include <QDebug>
+#include <QPlainTextEdit>
 
 #include "dia_settings.h"
 
@@ -31,8 +32,43 @@ private slots:
 
     void change_size(int x,int y);
 
+    void on_action_cbk_triggered();
+
+    void on_action_release_triggered();
+
+    void on_button_start_clicked();
+
 private:
     Ui::MainWindow *ui;
     Dia_settings *setting =new Dia_settings(this);
+};
+
+
+class CustomWidget : public QWidget
+{
+    Q_OBJECT
+
+public:
+    CustomWidget(QWidget *parent = nullptr) : QWidget(parent)
+    {
+        setFixedSize(800, 600);
+
+        plainTextEdit = new QPlainTextEdit(this);
+        plainTextEdit->setReadOnly(false);
+        plainTextEdit->setFixedSize(800, 600);
+
+        QFile file(":/RELEASE");
+        if (file.open(QIODevice::ReadOnly | QIODevice::Text))
+        {
+            qDebug()<<"打开了文件.\n";
+            QTextStream in(&file);
+            plainTextEdit->setPlainText(in.readAll());
+            file.close();
+            plainTextEdit->setReadOnly(true);
+        }
+    }
+
+private:
+    QPlainTextEdit *plainTextEdit;
 };
 #endif // MAINWINDOW_H

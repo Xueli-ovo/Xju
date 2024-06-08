@@ -40,6 +40,8 @@ else()
             ${PROJECT_SOURCES}
             gamewin.h gamewin.cpp gamewin.ui
             dia_settings.h dia_settings.cpp dia_settings.ui
+            wsrc.qrc
+
         )
     endif()
 endif()

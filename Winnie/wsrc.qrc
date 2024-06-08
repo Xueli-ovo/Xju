@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>splash.png</file>
+        <file>RELEASE</file>
+    </qresource>
+    <qresource prefix="/cat">
+        <file>room.jpg</file>
+    </qresource>
+</RCC>

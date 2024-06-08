@@ -22,6 +22,8 @@ public:
 private slots:
     void on_buttonBox_clicked(QAbstractButton *button);
 
+    void on_comboBox_gamemode_currentIndexChanged(int index);
+
 signals:
     void send_size(int x,int y);
 
